@@ -1,5 +1,7 @@
+
 package ca.sait.week4lab_simplenotekeeper.model;
 
+import java.beans.*;
 import java.io.Serializable;
 
 /**
@@ -36,4 +38,5 @@ public class Note implements Serializable {
     public void setContents(String contents) {
         this.contents = contents;
     }
+
 }
