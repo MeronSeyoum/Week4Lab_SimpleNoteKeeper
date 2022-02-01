@@ -9,15 +9,19 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>View Note Page</title>
+        <title>Edit Note Page</title>
     </head>
     <body>
         
-        <h1>View Note:</h1>
-        <label for="title">Title</lable>
-        <p name="title" id="title"></p>
-        <label for="content">Content:</lable>
-        <p name="content" id="content"></p>
-        <a href="note?edit">Edit</a>
+         <h1>Edit Note</h1>
+        <form action="note" method="post">
+            <label for="title">Title: </label>
+            <input type="text" name="title" id="title" placeholder="Title" value="${note.title}">
+            <br><br>
+            <label for="contents">Contents: </label>
+            <input type="text" name="contents" id="contents" placeholder="Contents" value="${note.contents}">
+            <br><br>
+            <button type="submit">Save</button>
+        </form>
     </body>
 </html>
