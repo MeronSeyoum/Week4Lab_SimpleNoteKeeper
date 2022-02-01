@@ -9,9 +9,15 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>View Note Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        
+        <h1>View Note:</h1>
+        <label for="title">Title</lable>
+        <p name="title" id="title"></p>
+        <label for="content">Content:</lable>
+        <p name="content" id="content"></p>
+        <a href="note?edit">Edit</a>
     </body>
 </html>
