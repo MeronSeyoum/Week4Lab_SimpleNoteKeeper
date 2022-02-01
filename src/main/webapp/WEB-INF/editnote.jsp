@@ -1,7 +1,7 @@
 <%-- 
     Document   : editnote
     Created on : 1-Feb-2022, 11:35:18 AM
-    Author     : merya
+    Author     : Meron Seyoum
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
